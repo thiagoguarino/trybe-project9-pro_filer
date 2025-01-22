@@ -1,24 +1,7 @@
 # ProFiler
 
-Boas-vindas ao repositório do projeto ProFiler
-
-Aqui, você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-## Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do [Código de Conduta e do Manual da Pessoa Estudante da Trybe](https://app.betrybe.com/learn/student-manual/codigo-de-conduta-da-pessoa-estudante).
-
 ## Entregáveis
 
-<details>
-<summary><strong>🤷🏽‍♀️ Como entregar</strong></summary>
-
-Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/fc998c60-386e-46bc-83ca-4269beb17e17/section/fe827a71-3222-4b4d-a66f-ed98e09961af/day/1a530297-e176-4c79-8ed9-291ae2950540/lesson/2b2edce7-9c49-4907-92a2-aa571f823b79) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-
-</details>
-  
 <details>
 <summary><strong>🧑‍💻 O que deverá ser desenvolvido</strong></summary>
 
@@ -56,112 +39,6 @@ Neste projeto, verificamos se você é capaz de:
 - Utilizar o `pytest` para criar testes automatizados em uma aplicação escrita em Python.
 
 <!-- 🤔 [HS] Escrevam as habilidade utilizando a Taxonomia de Bloom. -->
-
-</details>
-
-<details>
-<summary><strong>‼ Antes de começar a desenvolver</strong></summary>
-
-<!-- 🤔 [HS] Aqui, deve-se adicionar os comandos mais utilizados e orientações de como preparar o repositório. Atualize o nome do repositório do projeto nas instruções a seguir -->
-
-1. Clone o repositório
-
-- Use o comando: `git clone git@github.com:tryber/python-001-projeto-pro-filer.git`
-- Entre na pasta do repositório que você acabou de clonar:
-  - `cd python-001-projeto-pro-filer`
-
-2. Instale as dependências
-
-    - Siga os passos do tópico [**🏕️ Ambiente Virtual**]
-
-3. Crie uma branch a partir da branch `main`
-
-- Verifique que você está na branch `main`
-  - Exemplo: `git branch`
-- Se você não estiver, mude para a branch `main`
-  - Exemplo: `git checkout main`
-- Agora, crie uma branch à qual você vai submeter os `commits` do seu projeto:
-  - Você deve criar uma branch no seguinte formato: `nome-sobrenome-nome-do-projeto`;
-  - Exemplo: `git checkout -b maria-soares-pro-filer`
-
-4. Crie na raiz do projeto os arquivos que você precisará desenvolver:
-
-- Verifique que você está na raiz do projeto:
-  - Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/maria/code/**python-001-projeto-pro-filer**_
-- Crie ou edite algum arquivo necessário ao projeto
-
-5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-- Verifique que as mudanças ainda não estão no _stage_:
-  - Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
-- Adicione o novo arquivo ao _stage_ do Git:
-  - Exemplo:
-    - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-    - `git status` (devem aparecer listados os arquivos em verde)
-- Faça o `commit` inicial:
-  - Exemplo:
-    - `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-    - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-6. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-- Usando o exemplo anterior: `git push -u origin maria-soares-pro-filer`
-
-7. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_ do repositório no GitHub em `<url_do_repositório>/pulls`:
-  - Clique no botão verde _"New pull request"_
-  - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-- Coloque um título para o seu _Pull Request_
-  - Exemplo: _"Cria tela de busca"_
-- Clique no botão verde _"Create pull request"_
-
-- Adicione uma descrição para o _Pull Request_, um título nítido que o identifique, e clique no botão verde _"Create pull request"_
-
- <img width="1335" alt="Exemplo de pull request" src="https://user-images.githubusercontent.com/42356399/166255109-b95e6eb4-2503-45e5-8fb3-cf7caa0436e5.png">
-
-- Volte até a página de _Pull Requests_ do repositório no GitHub em `<url_do_repositório>/pulls` e confira que o seu _Pull Request_ está criado
-
-</details>
-
-<details>
-<summary><strong>⌨️ Durante o desenvolvimento</strong></summary>
-
-Faça `commits` das alterações que você fizer no código regularmente, pois assim você garante visibilidade para o time da Trybe e treina essa prática para o mercado de trabalho :) ;
-
-- Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto;
-- Os comandos que você utilizará com mais frequência são:
-  - `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_;
-  - `git add` _(para adicionar arquivos ao stage do Git)_;
-  - `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_;
-  - `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_;
-  - `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_.
-
-</details>
-  
-<details>
-<summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary>
-
-Para sinalizar que o seu projeto está pronto para o _'Code Review'_ dos seus colegas, faça o seguinte:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _'code-review'_ e marque seus colegas:
-
-- No menu à direita, clique no _link_ **'Labels'** e escolha a _label_ **code-review**;
-
-- No menu à direita, clique no _link_ **'Assignees'** e escolha **o seu usuário**;
-
-- No menu à direita, clique no _link_ **'Reviewers'** e digite `students`, selecione o time `tryber/students-sd-0x`.
-
-Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
-
-⚠️ **Lembre-se que garantir que todas as _issues_ comentadas pelo Linter estão resolvidas!** ⚠️
-
-</details>
-  
-<details>
-<summary><strong>🕵🏿 Revisando um pull request</strong></summary>
-
-Use o conteúdo sobre [Code Review](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/b3af2f05-08e5-4b4a-9667-6f5f729c351d/lesson/36268865-fc46-40c7-92bf-cbded9af9006) para te ajudar a revisar os _Pull Requests_.
 
 </details>
 
@@ -210,10 +87,6 @@ Se a análise do `Flake8` encontrar problemas no seu código, tais problemas ser
 
 Você pode também pode contar com a ajuda do `Flake8` no `VSCode`. Para isso, basta instalar a [extensão oficial do VS Code para a linguagem Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
 
-Em caso de dúvidas, confira o material na plataforma sobre [configuração do ambiente Python](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/aa76abc8-b842-40d9-b5cc-baa960952129/lesson/dd80466d-31d4-4b35-bacf-d789e261fa7d).
-
-⚠️ **PULL REQUESTS COM ISSUES NO LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
-
 </details>
 
 <details>
@@ -247,7 +120,9 @@ Em caso de dúvidas, confira o material na plataforma sobre [configuração do a
 
 ## Requisitos do projeto
 
-Antes de começar, não deixe de ler o tópico [**🧑‍💻 O que deverá ser desenvolvido**]!
+<details>
+
+<summary> 1. Elimine o(s) bug(s) da função `show_deepest_file`</summary>
 
 ### 1. Elimine o(s) bug(s) da função `show_deepest_file`
 
@@ -295,18 +170,11 @@ Na segunda chamada, não há arquivos dentro do diretório informado, então a f
 > **De olho na dica 👀:** Essa função pode ser acionada pelo comando `pro-filer <caminho> deepest-file`!
 
 </details>
+</details>
 
 <details>
 
-<summary> 📌 O que será testado </summary>
-
-- A função `show_deepest_file` deve imprimir, na saída padrão (`stdout`), o caminho do arquivo mais profundo dentro do diretório informado;
-- A função `show_deepest_file` deve imprimir, na saída padrão (`stdout`), `No files found` caso não haja arquivos listados no dicionário `context`;
-- Todos os testes do arquivo `tests/actions/test_deepest_file.py` devem passar.
-
-</details>
-
-### 2. Elimine o(s) bug(s) da função `find_file_by_name`
+<summary>2. Elimine o(s) bug(s) da função `find_file_by_name`</summary>
 
 > Arquivo a ser alterado: `pro_filer/actions/beta_actions.py`
 
@@ -361,19 +229,11 @@ E na 3ª chamada, não há arquivos dentro do dicionário `context`, então a fu
 > **De olho na dica 👀:** Essa função pode ser acionada pelo comando `pro-filer <caminho> search-file <termo_de_busca>`!
 
 </details>
+</details>
 
 <details>
 
-<summary> 📌 O que será testado </summary>
-
-- A função `find_file_by_name` deve retornar uma lista com todos os caminhos de arquivos que possuem o a string `search_term` em seu nome, ignorando o nome das pastas;
-- A função `find_file_by_name` deve realizar a busca por arquivos considerando corretamente o parâmetro `case_sensitive`;
-- A função `find_file_by_name` deve retornar uma lista vazia caso não haja arquivos listados no dicionário `context`;
-- Todos os testes do arquivo `tests/actions/test_find_file_by_name.py` devem passar.
-
-</details>
-
-### 3. Crie testes para a função `show_preview`
+<summary>3. Crie testes para a função `show_preview`</summary>
 
 > Arquivo a ser alterado: `tests/actions/test_show_preview.py`
 
@@ -434,16 +294,6 @@ Na 2ª chamada, não há arquivos listados em `all_files`, então a função imp
 </details>
 
 <details>
-
-<summary> 📌 O que será testado </summary>
-
-- Os seus testes rejeitam implementações de `show_preview` que consideram apenas `all_files` e `all_dirs` vazios;
-- Os seus testes rejeitam implementações de `show_preview` que exibem mais do que 5 arquivos e/ou diretórios;
-- Os seus testes aprovam a implementação de `show_preview` presente em `pro_filer/actions/main_actions.py`.
-
-</details>
-
-<details>
   <summary> 📌 Como seu teste é avaliado </summary>
 
 O **teste da Trybe** irá avaliar se os **seus testes** estão passando conforme seu objetivo, e se estão falhando em alguns casos que deveria falhar.
@@ -455,8 +305,13 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 ✅ Se seu teste **rejeitar** todas as implementações "quebradas", **o teste da Trybe PASSARÁ**, indicando que o requisito **está** aprovado.
 
 </details>
+</details>
+</details>
 
-### 4. Crie testes para a função `show_details`
+<details>
+
+<summary>4. Crie testes para a função `show_details`</summary>
+
 
 > Arquivo a ser alterado: `tests/actions/test_show_details.py`
 
@@ -512,18 +367,6 @@ Na 2ª chamada, o arquivo informado não existe, então a função imprime `File
 </details>
 
 <details>
-
-<summary> 📌 O que será testado </summary>
-
-- Os seus testes rejeitam implementações de `show_details` que não utilizam as mensagens corretas para exibir cada informação;
-- Os seus testes rejeitam implementações de `show_details` que utilizam o formato de data incorreto;
-- Os seus testes rejeitam implementações de `show_details` que não tratam corretamente o caso de o arquivo informado não existir;
-- Os seus testes rejeitam implementações de `show_details` que não tratam corretamente o caso de o arquivo não possuir extensão;
-- Os seus testes aprovam a implementação de `show_details` presente em `pro_filer/actions/main_actions.py`.
-
-</details>
-
-<details>
   <summary> 📌 Como seu teste é avaliado </summary>
 
 O **teste da Trybe** irá avaliar se os **seus testes** estão passando conforme seu objetivo, e se estão falhando em alguns casos que deveria falhar.
@@ -535,8 +378,12 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 ✅ Se seu teste **rejeitar** todas as implementações "quebradas", **o teste da Trybe PASSARÁ**, indicando que o requisito **está** aprovado.
 
 </details>
+</details>
 
-### 5. Crie testes para a função `show_disk_usage`
+
+
+<details>
+  <summary>5. Crie testes para a função `show_disk_usage`</summary>
 
 > Arquivo a ser alterado: `tests/actions/test_show_disk_usage.py`
 
@@ -595,20 +442,6 @@ Na 2ª chamada, não há arquivos listados em `all_files`, então a função imp
 
 > **De olho na dica 👀:** Execute o teste da Trybe `tests/trybe/show_disk_usage_test.py` para verificar se seus testes cobrem todos os casos de uso previstos!
 
-</details>
-
-<details>
-
-<summary> 📌 O que será testado </summary>
-
-- Os seus testes rejeitam implementações de `show_disk_usage` que não calculam corretamente o espaço total ocupado pelos arquivos listados em `all_files`;
-- Os seus testes rejeitam implementações de `show_disk_usage` que consideram todos os arquivos como vazios;
-- Os seus testes rejeitam implementações de `show_disk_usage` que não ordenam corretamente a listagem de arquivos;
-- Os seus testes aprovam a implementação de `show_disk_usage` presente em `pro_filer/actions/main_actions.py`;
-- Os seus testes utilizam a fixture `tmp_path` para criar arquivos temporários.
-
-</details>
-
 <details>
   <summary> 📌 Como seu teste é avaliado </summary>
 
@@ -621,8 +454,11 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 ✅ Se seu teste **rejeitar** todas as implementações "quebradas", **o teste da Trybe PASSARÁ**, indicando que o requisito **está** aprovado.
 
 </details>
+</details>
+</details>
 
-### 6. Crie testes para a função `find_duplicate_files`
+<details>
+  <summary>6. Crie testes para a função `find_duplicate_files`</summary>
 
 > Arquivo a ser alterado: `tests/actions/test_find_duplicate_files.py`
 
@@ -631,7 +467,6 @@ Para concluir sua participação na temporada de melhorias, as pessoas responsá
 Implemente testes para a função `find_duplicate_files` do arquivo `pro_filer/actions/main_actions.py` para garantir que ela está funcionando corretamente. **Os testes devem ser implementados no arquivo `tests/actions/test_find_duplicate_files.py`. Você pode criar quantas funções de teste desejar, desde que respeite o padrão do `Pytest`.**
 
 <details>
-
 <summary> 🤖 Comportamento esperado da função <code>find_duplicate_files</code> </summary>
 
 A função `find_duplicate_files` deve receber como parâmetro um dicionário `context` com a chave `all_files`, que armazena uma lista de strings representando os caminhos de todos os arquivos dentro de um diretório.
@@ -686,21 +521,8 @@ Caso a exceção `FileNotFoundError` seja levantada na chamada de `filecmp.cmp(.
 </details>
 
 <details>
-
-<summary> 📌 O que será testado </summary>
-
-- Os seus testes rejeitam implementações de `find_duplicate_files` que consideram todos os arquivos em `all_files` como diferentes;
-- Os seus testes rejeitam implementações de `find_duplicate_files` que consideram todos os arquivos em `all_files` como iguais;
-- Os seus testes rejeitam implementações de `find_duplicate_files` que não levanta `ValueError` caso algum arquivo em `all_files` não exista;
-- Os seus testes aprovam a implementação de `find_duplicate_files` presente em `pro_filer/actions/main_actions.py`;
-- Os seus testes utilizam a fixture `tmp_path` para criar arquivos temporários.
-
-</details>
-
-<details>
   <summary> 📌 Como seu teste é avaliado </summary>
-
-O **teste da Trybe** irá avaliar se os **seus testes** estão passando conforme seu objetivo, e se estão falhando em alguns casos que deveria falhar.
+</details>
 
 Executaremos as funções de teste que você escrever no arquivo indicado (`tests/actions/test_show_disk_usage.py`) substituindo a função sendo testada (`show_disk_usage`) por outras implementações "quebradas".
 
@@ -708,27 +530,7 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 
 ✅ Se seu teste **rejeitar** todas as implementações "quebradas", **o teste da Trybe PASSARÁ**, indicando que o requisito **está** aprovado.
 
-</details>
 
+</details>
+</details>
 ---
-  
-<details>
-<summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary>
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário.
-**Leva menos de 3 minutos!**
-
-[Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH1&template=betrybe/python-0x-projeto-pro-filer)
-
-</details>
-  
-<details>
-<summary><strong>🗂 Compartilhe seu portfólio!</strong></summary>
-
-Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
----
-
-<!-- mdi versão 1.0 projeto python ⚠️ não exclua esse comentário -->
