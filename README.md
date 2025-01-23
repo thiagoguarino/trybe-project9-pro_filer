@@ -118,8 +118,6 @@ Você pode também pode contar com a ajuda do `Flake8` no `VSCode`. Para isso, b
 
 <summary> 1. Elimine o(s) bug(s) da função `show_deepest_file`</summary>
 
-### 1. Elimine o(s) bug(s) da função `show_deepest_file`
-
 > Arquivo a ser alterado: `pro_filer/actions/beta_actions.py`
 
 Você está colaborando com a comunidade open-source e recebeu uma tarefa de corrigir bugs em algumas funções!
@@ -516,7 +514,6 @@ Caso a exceção `FileNotFoundError` seja levantada na chamada de `filecmp.cmp(.
 
 <details>
   <summary> 📌 Como seu teste é avaliado </summary>
-</details>
 
 Executaremos as funções de teste que você escrever no arquivo indicado (`tests/actions/test_show_disk_usage.py`) substituindo a função sendo testada (`show_disk_usage`) por outras implementações "quebradas".
 
@@ -525,5 +522,6 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 ✅ Se seu teste **rejeitar** todas as implementações "quebradas", **o teste da Trybe PASSARÁ**, indicando que o requisito **está** aprovado.
 
 
+</details>
 </details>
 </details>
