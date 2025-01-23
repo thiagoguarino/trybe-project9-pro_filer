@@ -1,6 +1,4 @@
-# ProFiler
-
-## Entregáveis
+# Project ProFiler
 
 <details>
 <summary><strong>🧑‍💻 O que deverá ser desenvolvido</strong></summary>
@@ -29,16 +27,12 @@ Você deverá corrigir os bugs e implementar os testes para garantir que a aplic
 </details>
   
 <details>
-  <summary><strong>:memo: Habilidades a serem trabalhadas </strong></summary>
-
-Neste projeto, verificamos se você é capaz de:
+  <summary><strong>🏕️ Habilidades a serem trabalhadas </strong></summary>
 
 - Encontrar bugs no código de uma aplicação escrita em Python;
 - Corrigir bugs no código de uma aplicação escrita em Python;
 - Criar testes para uma aplicação escrita em Python;
 - Utilizar o `pytest` para criar testes automatizados em uma aplicação escrita em Python.
-
-<!-- 🤔 [HS] Escrevam as habilidade utilizando a Taxonomia de Bloom. -->
 
 </details>
 
@@ -533,4 +527,3 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 
 </details>
 </details>
----
