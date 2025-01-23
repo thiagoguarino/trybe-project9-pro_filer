@@ -1,4 +1,4 @@
-# Project ProFiler
+## Trybe Project 39 - Profiler
 
 <details>
 <summary><strong>🧑‍💻 O que deverá ser desenvolvido</strong></summary>
