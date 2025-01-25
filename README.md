@@ -303,7 +303,7 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 
 > Arquivo a ser alterado: `tests/actions/test_show_details.py`
 
-Parabéns por todas as contribuições feitas até aqui! O time responsável pelo projeto está gostando do seu trabalho e tem uma nova tarefa para você: criar testes para outra funcionalidade!
+- criar testes para outra funcionalidade!
 
 Implemente testes para a função `show_details` do arquivo `pro_filer/actions/main_actions.py` para garantir que ela está funcionando corretamente. **Os testes devem ser implementados no arquivo `tests/actions/test_show_details.py`. Você pode criar quantas funções de teste desejar, desde que respeite o padrão do `Pytest`.**
 
