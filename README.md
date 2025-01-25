@@ -375,7 +375,7 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 
 > Arquivo a ser alterado: `tests/actions/test_show_disk_usage.py`
 
-Continuando suas contribuições no projeto, precisamos que você crie testes para mais uma funcionalidade importante do projeto!
+- criar testes para mais uma funcionalidade importante do projeto!
 
 Implemente testes para a função `show_disk_usage` do arquivo `pro_filer/actions/main_actions.py` para garantir que ela está funcionando corretamente. **Os testes devem ser implementados no arquivo `tests/actions/test_show_disk_usage.py`. Você pode criar quantas funções de teste desejar, desde que respeite o padrão do `Pytest`.**
 
@@ -450,7 +450,7 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 
 > Arquivo a ser alterado: `tests/actions/test_find_duplicate_files.py`
 
-Para concluir sua participação na temporada de melhorias, as pessoas responsáveis pelo projeto têm uma última tarefa para você: criar testes para uma funcionalidade final!
+- criar testes para uma funcionalidade final!
 
 Implemente testes para a função `find_duplicate_files` do arquivo `pro_filer/actions/main_actions.py` para garantir que ela está funcionando corretamente. **Os testes devem ser implementados no arquivo `tests/actions/test_find_duplicate_files.py`. Você pode criar quantas funções de teste desejar, desde que respeite o padrão do `Pytest`.**
 
