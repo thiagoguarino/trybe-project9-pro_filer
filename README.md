@@ -116,11 +116,9 @@ Você pode também pode contar com a ajuda do `Flake8` no `VSCode`. Para isso, b
 
 <details>
 
-<summary> 1. Elimine o(s) bug(s) da função `show_deepest_file`</summary>
+<summary><b>1. Elimine o(s) bug(s) da função `show_deepest_file`</b></summary>
 
 > Arquivo a ser alterado: `pro_filer/actions/beta_actions.py`
-
-Você está colaborando com a comunidade open-source e recebeu uma tarefa de corrigir bugs em algumas funções!
 
 Encontre e corrija o(s) bug(s) da função `show_deepest_file` para que ela informe corretamente o caminho arquivo mais profundo dentro do diretório informado.
 
@@ -166,11 +164,9 @@ Na segunda chamada, não há arquivos dentro do diretório informado, então a f
 
 <details>
 
-<summary>2. Elimine o(s) bug(s) da função `find_file_by_name`</summary>
+<summary><b>2. Elimine o(s) bug(s) da função `find_file_by_name`</b></summary>
 
 > Arquivo a ser alterado: `pro_filer/actions/beta_actions.py`
-
-Com a resolução do último bug, as pessoas responsáveis pela manutenção do projeto ficaram extremamente satisfeitas e agora estão solicitando uma nova tarefa para você!
 
 Encontre e corrija o(s) bug(s) da função `find_file_by_name` para que ela faça corretamente a busca de arquivos baseada em um termo de busca.
 
@@ -225,7 +221,7 @@ E na 3ª chamada, não há arquivos dentro do dicionário `context`, então a fu
 
 <details>
 
-<summary>3. Crie testes para a função `show_preview`</summary>
+<summary><b>3. Crie testes para a função `show_preview`</b></summary>
 
 > Arquivo a ser alterado: `tests/actions/test_show_preview.py`
 
@@ -302,7 +298,7 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 
 <details>
 
-<summary>4. Crie testes para a função `show_details`</summary>
+<summary><b>4. Crie testes para a função `show_details`</b></summary>
 
 
 > Arquivo a ser alterado: `tests/actions/test_show_details.py`
@@ -375,7 +371,7 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 
 
 <details>
-  <summary>5. Crie testes para a função `show_disk_usage`</summary>
+  <summary><b>5. Crie testes para a função `show_disk_usage`</b></summary>
 
 > Arquivo a ser alterado: `tests/actions/test_show_disk_usage.py`
 
@@ -450,7 +446,7 @@ Executaremos as funções de teste que você escrever no arquivo indicado (`test
 </details>
 
 <details>
-  <summary>6. Crie testes para a função `find_duplicate_files`</summary>
+  <summary><b>6. Crie testes para a função `find_duplicate_files`</b></summary>
 
 > Arquivo a ser alterado: `tests/actions/test_find_duplicate_files.py`
 
