@@ -225,7 +225,7 @@ E na 3ª chamada, não há arquivos dentro do dicionário `context`, então a fu
 
 > Arquivo a ser alterado: `tests/actions/test_show_preview.py`
 
-Agora que você já corrigiu bugs do projeto e mostrou que consegue trabalhar com o `Pytest`, as pessoas encarregadas do projeto solicitaram que você desenvolva testes para as funções que ainda não foram testadas!
+- desenvolva testes para as funções que ainda não foram testadas!
 
 Implemente testes para a função `show_preview` do arquivo `pro_filer/actions/main_actions.py` para garantir que ela está funcionando corretamente. **Os testes devem ser implementados no arquivo `tests/actions/test_show_preview.py`. Você pode criar quantas funções de teste desejar, desde que respeite o padrão do `Pytest`.**
 
